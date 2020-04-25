@@ -16,7 +16,7 @@ Once you get a developer key, you can query the code of your in Zomato's website
 
 Alright so now we have the latitude and longitude coordinates for each store, let's look at them. This is where one of my favorite libraries comes is: Geopandas.
 
-Geopandas adds support for geographic data to [pandas](http://pandas.pydata.org/) objects. SImply, it adds a 'geometry' column to a DataFrame and uses Shapely and fiona
+Geopandas adds support for geographic data to [pandas](http://pandas.pydata.org/) objects. SImply, it adds a 'geometry' column to a DataFrame and uses [Shapely](https://pypi.org/project/Shapely/) and fiona
 
 Shapely is a BSD-licensed Python package for manipulation and analysis of planar geometric objects.
 
@@ -24,5 +24,5 @@ Now we need a frame of reference. To answer owr question
 
 With this library we can
 
-
+<i class="fas fa-camera"></i>
 
